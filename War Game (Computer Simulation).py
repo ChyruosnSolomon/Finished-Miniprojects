@@ -17,7 +17,7 @@ class Card():
 
 	def __str__(self):
 		# String method, returning the rank of a card along its suit.
-		return self.rank + 'of' + self.suit
+		return self.rank + ' of ' + self.suit
 
 
 class Deck():
